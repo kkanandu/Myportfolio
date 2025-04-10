@@ -72,3 +72,9 @@ footer{padding: 100px;margin-top: 60px;}
   html{
     overflow-x: hidden;
   }
+  .gif-container{
+    height:43vh;
+  }
+  .btn-skill {
+    width:25%;
+}
