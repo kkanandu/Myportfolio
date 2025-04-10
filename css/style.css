@@ -1,145 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Tinos', Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-style: normal;
-  
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  /* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56ab2f 100%); */
-  overflow-x: hidden;
-}
-
-.navbar{
-  background-color: #A770EF;
-  position: fixed;
-  overflow:hidden ;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
-.navbar-nav {
-  margin-right: 100px;
-  
-}
-
-.nav-link {
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-
-}
-.nav-link:hover{
-  color: #c9f908;
-
-}
-.banner-bg::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: -40px;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scaleX(-1); 
-  /* background-image: url('https://img.freepik.com/free-vector/wave-purple-background-abstract-design-gradient_343694-3682.jpg?ga=GA1.1.1683471734.1744204681&w=740'); */
-  background-image: url('https://img.freepik.com/free-vector/black-arrow-background-abstract-gold-border-start-up-business-vector_53876-140563.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');
-}
-.banner-title {
-  font-size: 60px;
-  color: #ffff;
-  text-shadow: 2px 2px 6px rgb(34, 40, 1);
-}
-.styl{
-  font-size: 30px;
-  font-weight: 700;
-  color: #ffff;
-  text-shadow: 2px 2px 6px rgb(34, 40, 1);
-}
-.btn a{
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  font-weight: 600;
-
-}
-.btn-w {
-  width: 35%;
-  background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3 51%, #A770EF 100%);
-  padding: 10px 30px;
-  text-transform: uppercase;
-  transition: 0.5s;
-  color: white;
-  background-size: 200% auto;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-}
-
-.btn-w:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn-wo {
-  width: 35%;
-  background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
-  padding: 10px 40px;
-  text-align: center;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-}
-
-.btn-wo:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
-}
-.typewriter {
-  font-size: 25px;
-  color: rgb(243, 9, 9);
-  font-family: "Tinos", serif;
-  font-weight: 600;
-  position: relative;
-  width: 10ch;
-  height: 1em;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.word {
-  position: absolute;
-  top: 0;
-  border-right: 2px solid white;
-  left: 0;
-  width: 0;
-  overflow: hidden;
-  animation: blink 0.7s step-end infinite;
-}
-
-.w1 {
-  animation: typing-w1 6s steps(9) infinite;
-}
-
-.w2 {
-  animation: typing-w2 6s steps(8) infinite;
-}
-
+  padding: 0;margin: 0;box-sizing: border-box;font-family: 'Tinos', Georgia, 'Times New Roman', Times, serif;font-weight: 400;font-style: normal;}
+html {scroll-behavior: smooth;}
+body {/* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56ab2f 100%); */overflow-x: hidden;}
+.navbar{background-color: #A770EF;position: fixed;overflow:hidden ;width: 100%;top: 0;z-index: 9999;}
+.navbar-nav {margin-right: 100px;}
+.nav-link {font-size: 20px;font-weight: 600;color: #fff;}
+.nav-link:hover{color: #c9f908;}
+.banner-bg::before{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: -40px;z-index: -1;background-repeat: no-repeat;background-size: cover; transform: scaleX(-1);background-image: url('https://img.freepik.com/free-vector/black-arrow-background-abstract-gold-border-start-up-business-vector_53876-140563.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');}
+.banner-title {font-size: 60px;color: #ffff;text-shadow: 2px 2px 6px rgb(34, 40, 1);}
+.styl{font-size: 30px;font-weight: 700;color: #ffff;text-shadow: 2px 2px 6px rgb(34, 40, 1);}
+.btn a{text-decoration: none;color: white;text-align: center;font-weight: 600;}
+.btn-w {width: 35%;background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3 51%, #A770EF 100%);padding: 10px 30px;text-transform: uppercase;transition: 0.5s;color: white;background-size: 200% auto;box-shadow: 0 0 20px #eee;border-radius: 10px;}
+.btn-w:hover {background-position: right center;color: #fff;text-decoration: none;}
+.btn-wo {width: 35%;background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);padding: 10px 40px;text-align: center;font-weight: 600;text-transform: uppercase;transition: 0.5s;background-size: 200% auto;color: white;box-shadow: 0 0 20px #eee;border-radius: 10px;}
+.btn-wo:hover {background-position: right center;color: #fff;text-decoration: none;}
+.typewriter {font-size: 25px;color: rgb(243, 9, 9);font-family: "Tinos", serif;font-weight: 600;position: relative;width: 10ch;height: 1em;overflow: hidden;white-space: nowrap;}
+.word {position: absolute;top: 0;border-right: 2px solid white;left: 0;width: 0;overflow: hidden;animation: blink 0.7s step-end infinite;}
+.w1 {animation: typing-w1 6s steps(9) infinite;}
+.w2 {animation: typing-w2 6s steps(8) infinite;}
 @keyframes typing-w1 {
   0% { width: 0ch; opacity: 1; border-right-color: white; }
   25% { width: 9ch; opacity: 1; border-right-color: white; }
@@ -147,7 +26,6 @@ body {
   50% { width: 0ch; opacity: 0; border-right-color: transparent; }
   100% { width: 0ch; opacity: 0; border-right-color: transparent; }
 }
-
 @keyframes typing-w2 {
   0% { width: 0ch; opacity: 0; border-right-color: transparent; }
   50% { width: 0ch; opacity: 1; border-right-color: transparent; }
@@ -155,82 +33,17 @@ body {
   90% { width: 8ch; opacity: 1; border-right-color: white; }
   100% { width: 0ch; opacity: 0; border-right-color: transparent; }
 }
-
-.gif {
-  object-fit: cover;
-  height: 500px;
-  width: 100%;
-  /* padding: 79px 0; */
-}
-
-.gif-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
-  overflow: hidden;
-}
-.gif{
-  /* position: relative;
-  top: 0;
-  background-image: url('../Assets/modern-dark-black-watercolor-brush-stroke-white-background_1035-29339-removebg-preview.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width:100%;
-  height: fit-content; */
-}
-
-.text-format {
-  text-align: justify;
-  font-size: 20px;
-  color: white;
-  /* padding: 0 100px 0 0; */
-}
-
-#about-me{
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* transform: scaleX(-1);  */
-  background-image: url('https://img.freepik.com/free-vector/abstract-pixel-rain-violet-background_23-2148385349.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&semt=ais_country_boost&w=740');
-  /* background-image: url('https://img.freepik.com/premium-vector/black-abstract-background_743476-4.jpg?ga=GA1.1.1683471734.1744204681&w=740'); */
-}
-  
-.parallax{
-  background-image: url("../Assets/parallax-bg.jpeg");
-  min-height:200px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-.te{
-  display: flex;justify-content: center;height: 200px;align-items: center;}
-.title{font-size: 5rem;font-weight: 700;color: #f5f5f5;
-}
-.box-sha{
-  height:fit-content;font-size:36px;width: 100%;}
-
-.btn-skill {
-    width: 18%;
-    padding: 10px 30px;
-    color: white;
-
-    background-image: linear-gradient(to right, #03aff9 0%, #c9f908 51%, #0775f3 100%);
-
-}
-.btn-tool {
-  width: 18%;
-
-  background-image: linear-gradient(to right, #00070a 0%, #f9081c 51%, #110101 100%);
-  padding: 10px 30px;
-}
-.btn-app {
-  width: 15%;
-  background-image: linear-gradient(to right, #f907e1 0%, #a8e063 51%, #56ab2f 100%);
-  padding: 10px 40px;
-}
+.gif {object-fit: cover;height: 500px;width: 100%;}
+.gif-container {display: flex;justify-content: center;align-items: center;height: 95vh;overflow: hidden;}
+.text-format {text-align: justify;font-size: 20px;color: white;}
+#about-me{background-repeat: no-repeat;background-size: cover;background-image: url('https://img.freepik.com/free-vector/abstract-pixel-rain-violet-background_23-2148385349.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&semt=ais_country_boost&w=740');}
+.parallax{background-image: url("../Assets/parallax-bg.jpeg");min-height:200px; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.te{display: flex;justify-content: center;height: 200px;align-items: center;}
+.title{font-size: 5rem;font-weight: 700;color: #f5f5f5;}
+.box-sha{height:fit-content;font-size:36px;width: 100%;}
+.btn-skill {width: 18%;padding: 10px 30px;color: white;background-image: linear-gradient(to right, #03aff9 0%, #c9f908 51%, #0775f3 100%);}
+.btn-tool {width: 18%;background-image: linear-gradient(to right, #00070a 0%, #f9081c 51%, #110101 100%);padding: 10px 30px;}
+.btn-app {width: 15%;background-image: linear-gradient(to right, #f907e1 0%, #a8e063 51%, #56ab2f 100%);padding: 10px 40px;}
 
 .portfolio{
 padding: 50px 0 0;
@@ -308,75 +121,24 @@ font-weight: 500;
   height: auto; 
   max-height: 400px; 
   object-fit: cover;
-  margin-bottom: 15px;
-}
-/* .soldier {
-  width: 100%; 
-  height: 400px; 
-  overflow: hidden; 
-}
+  margin-bottom: 15px;}
+/* .soldier {width: 100%;height: 400px;overflow: hidden;}
+.soldier img {width: 100%;height: 100%;object-fit: contain;object-position: center; } */
+.soldier-img-set{display: flex;flex-wrap: wrap; gap: 20px; }
+.soldier{width: 48%;margin-bottom: 20px; }
+.soldier img {width: 100%;height: auto; }
+.youtuber{background-color: #00070a;}
+.contact-bg{background-image: url('https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-52267.jpg?t=st=1744209325~exp=1744212925~hmac=85d31156426eafe1fd1917968a0af493052f20227df217cd401d5f9663eb0360&w=1380');}
+.box{border: 2px solid white; width: 60%;margin: auto;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+.card {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);max-width: 800px;margin: auto;}
+.align{padding: 20px 40px;}
+#contact{background-repeat: no-repeat;background-size: cover;background-image: url('https://img.freepik.com/free-vector/abstract-wave-background_557339-917.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');}
+.contact-form .icon-style{font-size: 17px;font-weight: 700;font-style: normal;text-align: justify;}
+footer{padding: 100px;margin-top: 60px;}
+@media screen and (max-width: 960px)  {
+  .mob-res{
+    display: none;
 
-.soldier img {
-  width: 100%;
-  height: 100%; 
-  object-fit: contain;
-  object-position: center; 
-} */
-
-.soldier-img-set  {
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 20px; 
-}
-
-.soldier {
-  width: 48%;
-  margin-bottom: 20px; 
-}
-
-.soldier img {
-  width: 100%;
-  height: auto; 
-}
-.youtuber{
-  background-color: #00070a;
-}
-
-.contact-bg{
-
-  background-image: url('https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-52267.jpg?t=st=1744209325~exp=1744212925~hmac=85d31156426eafe1fd1917968a0af493052f20227df217cd401d5f9663eb0360&w=1380');
-}
-.box{
-  border: 2px solid white;
-  width: 60%;margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 800px;
-  margin: auto;
-  /* text-align: center; */
-}
-.align{
-  padding: 20px 40px;
-}
-#contact{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('https://img.freepik.com/free-vector/abstract-wave-background_557339-917.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');
-
-
-}
-.contact-form .icon-style{
-  font-size: 17px;
-  font-weight: 700;
-  font-style: normal;
-  text-align: justify;
+  }
   
-}
-footer{
-  /* background-color: rgb(14, 8, 8); */
-  padding: 100px;
-  margin-top: 60px;
 }
