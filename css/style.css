@@ -44,86 +44,19 @@ body {/* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56
 .btn-skill {width: 18%;padding: 10px 30px;color: white;background-image: linear-gradient(to right, #03aff9 0%, #c9f908 51%, #0775f3 100%);}
 .btn-tool {width: 18%;background-image: linear-gradient(to right, #00070a 0%, #f9081c 51%, #110101 100%);padding: 10px 30px;}
 .btn-app {width: 15%;background-image: linear-gradient(to right, #f907e1 0%, #a8e063 51%, #56ab2f 100%);padding: 10px 40px;}
-
-.portfolio{
-padding: 50px 0 0;
-}
-.portfolio-title{
-  font-size: 50px;
-  font-weight: 600;
-  color: #A770EF;
-}
-.filterDiv {
-  /* color: #ffffff; */
-  /* width: 100px; */
-  cursor: pointer;
-  position: relative;
-  transition: transform 0.3s ease-in-out;
-  
-  
-}
-.filterDiv .fliter-box-content{
-  position: absolute;
-  bottom:0;
-  left: 0;
-  right: 0;
-  color: #56ab2f;
-  border: 1px solid red;
-  border-width: 50%;
-  padding:14px;
-  background-color: white;
-  transition: opacity 0.3s ease-in-out; 
-}
-.filterDiv:hover {
-  transform: scale(1.05); 
-}
-.filter-list li {
-  cursor: pointer;
-  padding: 6px 12px;
-}
-
-.filter-list li:hover {
-  color: #fff;
-  background-color:#A770EF;
-  border-radius: 5px;
-}
-.gallery img {
-  width: auto;
-  height: 400px;
-
-}
-.portfolio-bg{
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('https://img.freepik.com/free-vector/abstract-wave-background_557339-917.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');
-}
-
-.portfolio .iot-head
-{
-font-size: 30px;
-font-weight: 500;
-
-}
-.pos-fix{
-  width: 27%;
-  position: fixed;
-  z-index: -1;
-  overflow: hidden;
-  padding-top: 20px;
-}
-.portfolio .iot-para{
-  font-size: 20px;
-  text-align: justify;
-}
-.iot-img{
-  width: 100%;  
-  height: auto; 
-  max-height: 400px; 
-  object-fit: cover;
-  margin-bottom: 15px;}
-/* .soldier {width: 100%;height: 400px;overflow: hidden;}
-.soldier img {width: 100%;height: 100%;object-fit: contain;object-position: center; } */
+.portfolio{padding: 50px 0 0;}
+.portfolio-title{font-size: 50px;font-weight: 600;color: #A770EF;}
+.filterDiv {cursor: pointer;position: relative;transition: transform 0.3s ease-in-out;}
+.filterDiv .fliter-box-content{position: absolute;bottom:0;left: 0;right: 0;color: #56ab2f;border: 1px solid red;border-width: 50%;padding:14px;background-color: white;transition: opacity 0.3s ease-in-out;}
+.filterDiv:hover {transform: scale(1.05);}
+.filter-list li {cursor: pointer;padding: 6px 12px;}
+.filter-list li:hover {color: #fff;background-color:#A770EF;border-radius: 5px;}
+.gallery img {width: auto;height: 400px;}
+.portfolio-bg{width: 100%;background-size: cover;background-repeat: no-repeat;background-image: url('https://img.freepik.com/free-vector/abstract-wave-background_557339-917.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');}
+.portfolio .iot-head{font-size: 30px;font-weight: 500;}
+.pos-fix{width: 27%;position: fixed;z-index: -1;overflow: hidden;padding-top: 20px;}
+.portfolio .iot-para{font-size: 20px;text-align: justify;}
+.iot-img{width: 100%;  height: auto; max-height: 400px; object-fit: cover;margin-bottom: 15px;}
 .soldier-img-set{display: flex;flex-wrap: wrap; gap: 20px; }
 .soldier{width: 48%;margin-bottom: 20px; }
 .soldier img {width: 100%;height: auto; }
@@ -135,10 +68,7 @@ font-weight: 500;
 #contact{background-repeat: no-repeat;background-size: cover;background-image: url('https://img.freepik.com/free-vector/abstract-wave-background_557339-917.jpg?uid=R36013109&ga=GA1.1.1683471734.1744204681&w=740');}
 .contact-form .icon-style{font-size: 17px;font-weight: 700;font-style: normal;text-align: justify;}
 footer{padding: 100px;margin-top: 60px;}
-@media screen and (max-width: 960px)  {
-  .mob-res{
-    display: none;
-
-  }
-  
+/*Media query*/
+@media screen and (max-width: 960px){
+  .mob-res{display: none;}
 }
