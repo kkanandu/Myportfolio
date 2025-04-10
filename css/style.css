@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-* {
-  padding: 0;margin: 0;box-sizing: border-box;font-family: 'Tinos', Georgia, 'Times New Roman', Times, serif;font-weight: 400;font-style: normal;}
-html {scroll-behavior: smooth;overflow-x:hidden;}
+* {padding: 0;margin: 0;box-sizing: border-box;font-family: 'Tinos', Georgia, 'Times New Roman', Times, serif;font-weight: 400;font-style: normal;}
+html {scroll-behavior: smooth;}
 body {/* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56ab2f 100%); */overflow-x: hidden;}
 .navbar{background-color: #A770EF;position: fixed;overflow:hidden ;width: 100%;top: 0;z-index: 9999;}
 .navbar-nav {margin-right: 100px;}
@@ -69,6 +68,7 @@ body {/* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56
 .contact-form .icon-style{font-size: 17px;font-weight: 700;font-style: normal;text-align: justify;}
 footer{padding: 100px;margin-top: 60px;}
 /*Media query*/
-/* @media screen and (max-width: 960px){
-  .mob-res{display: none;}
-} */
+@media screen and (min-width: 1084px)  {
+  html{
+    overflow-x: hidden;
+  }
