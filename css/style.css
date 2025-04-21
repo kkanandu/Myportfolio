@@ -81,3 +81,10 @@ footer{padding: 100px;margin-top: 60px;}
   .btn-skill {
     width:25%;
 } */
+@media screen and (max-width:768px){
+  .portfolio .container{
+    flex:wrap;
+  }
+  .btn-skill {
+    width:none;
+}
