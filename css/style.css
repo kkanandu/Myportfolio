@@ -81,7 +81,7 @@ footer{padding: 100px;margin-top: 60px;}
   .btn-skill {
     width:25%;
 } */
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
   .portfolio .container{
     flex:wrap;
   }
