@@ -103,3 +103,10 @@ footer{padding: 100px;margin-top: 60px;}
   .btn-skill {
     width:none;
 }
+@media screen and (max-width:600px){
+  .title {
+    font-size: 3rem;
+  }
+  .align {
+    padding:0px;
+}
