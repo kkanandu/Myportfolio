@@ -82,8 +82,23 @@ footer{padding: 100px;margin-top: 60px;}
     width:25%;
 } */
 @media screen and (max-width:1024px){
+  .gif-container {
+    height:56vh;
+  }
+  .gif{
+    height:398px;
+  }
+  .banner-title {
+    font-size: 43px;
+  }
+  .btn-wo {
+    width: auto;
+  }
+  .btn-w {
+    width: auto;
+  }
   .portfolio .container{
-    flex:wrap;
+    overflow:scroll
   }
   .btn-skill {
     width:none;
