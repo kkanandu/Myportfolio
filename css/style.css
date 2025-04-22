@@ -71,16 +71,7 @@ body {/* background-image: linear-gradient(-225deg, #A770EF 0%, #ebe6d0 48%, #56
 .contact-form .icon-style{font-size: 17px;font-weight: 700;font-style: normal;text-align: justify;}
 footer{padding: 100px;margin-top: 60px;}
 /*Media query*/
-/* @media screen and (min-width: 1084px)  {
-  html{
-    overflow-x: hidden;
-  }
-  .gif-container{
-    height:43vh;
-  }
-  .btn-skill {
-    width:25%;
-} */
+
 @media screen and (max-width:1024px){
   .gif-container {
     height:56vh;
@@ -105,7 +96,7 @@ footer{padding: 100px;margin-top: 60px;}
 }
 }
 @media screen and (max-width:600px){
-      .gif-container {
+  .gif-container {
         height: 41vh;
     }
   .banner-header{
