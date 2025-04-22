@@ -94,6 +94,12 @@ footer{padding: 100px;margin-top: 60px;}
   .btn-skill {
     width:none;
 }
+  .card{
+    max-width:377px;
+  }
+  align {
+    padding: 20px 19px;
+  }
 }
 @media screen and (max-width:600px){
   .gif-container {
