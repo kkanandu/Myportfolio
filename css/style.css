@@ -108,9 +108,6 @@ footer{padding: 100px;margin-top: 60px;}
   .title {
     font-size: 3rem;
   }
-  .align {
-    padding:0px;
-}
   .mobile-container {
     display: block;
     max-width: 480px;
@@ -157,7 +154,7 @@ footer{padding: 100px;margin-top: 60px;}
     color: white;
   }
   #about-me .text-center{
-    width:0;
+
     margin:0;
   }
   .text-format{
