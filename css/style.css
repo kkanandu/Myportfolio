@@ -104,11 +104,14 @@ footer{padding: 100px;margin-top: 60px;}
     width:none;
 }
 @media screen and (max-width:600px){
+      .gif-container {
+        height: 41vh;
+    }
   .banner-header{
     margin-top: 140px;
   }
   .banner-title {
-    font-size: 40px;
+    font-size: 33px;
   }
   .title {
     font-size: 3rem;
